@@ -1,6 +1,8 @@
 body {
-    display: grid;
-    grid-template-rows: repeat(3, 1fr);
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+
 }
 
 header {
@@ -17,7 +19,6 @@ header {
 
 #logo {
     margin-left: 5vw;
-
 }
 
 #logo button {
@@ -50,7 +51,7 @@ header {
 
 footer {
     background-color: aquamarine;
-    height: 100px;
+    height: 16vh;
     display: grid;
     grid-template-columns: 3fr 2fr;
 }
